@@ -1,0 +1,8 @@
+create table cliente (
+id integer primary key auto_increment,
+nome varchar(40),
+telefone varchar(20),
+profissao varchar(40),
+dataNasc date
+
+);
